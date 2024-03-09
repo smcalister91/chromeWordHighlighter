@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="popup">
+    <div style="padding: 10px; display: flex; align-items: center; justify-content: space-between;">
+        <label for="highlightToggle">Toggle Highlighting:</label>
+        <input type="checkbox" id="highlightToggle" checked>
+    </div>
+    <h1>Word Highlighter</h1>
+	<div class = "add-word-input">
+		<input type="text" id="wordInput" placeholder="Enter a word">
+		<input type="color" id="colorPicker" value="#ffff00"> <!-- Default color: yellow -->
+		<button id="addWord">Add Word</button>
+	</div>
+	<div id="wordList"></div>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.highlight {
+    background-color: none;
+}
+.current-highlight {
+    background-color: blue;
+}
+.word-entry {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 5px;
+}
+.popup {
+    width: 300px; /* Adjust the width as needed */
+}
+.not-highlight {
+	background-color: none;
+}
+.controls {
+    display: flex;
+    justify-content: right;
+    gap: 10px; /* Adjust the space between the color picker and delete button */
+}
+.add-word-input{
+	display:flex;
+    justify-content: right;
+    margin-bottom: 4px;
+}
+input[type="color"] {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
