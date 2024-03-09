@@ -12,5 +12,8 @@ To use the extension, select the "W" icon in the extensions list, which will bri
 
 Note: There are still a few bugs, this extension is a work in progress. 
 
+This extension was developed with help from GPT-4 and Claude 2.
+
 ![image](https://github.com/smcalister91/chromeWordHighlighter/assets/14841708/60b12c06-333c-4549-ad38-1b0afd4ed800)
+
 
